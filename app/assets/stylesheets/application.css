@@ -4,11 +4,65 @@
   box-sizing: border-box;
 }
 
-html, body {
+html {
   height: 100%;
 }
 
+/* form styling */
 
-@import "signup.css";
-@import "login.css";
+.signup {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+ }
+
+ .signin {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+ }
+ 
+ .acctedit {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+ }
+
+ .passreset {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+ }
+
+
+/* navbar */
+
+.nav {
+  padding: 50px;
+}
+
+ul {
+  float: right;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  margin-left: 20px;
+}
 
